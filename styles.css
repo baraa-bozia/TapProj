@@ -1,0 +1,72 @@
+nav{
+    display: block;
+    margin-left: 48%;
+    margin-top: 30px;
+}
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+a:hover:visited{
+    color: #D1884F;
+}
+
+p,h1{
+   color: #008AAA;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.s1{
+margin-left: 150px;
+}
+.container{
+    display: grid;
+    /* align-items: cernter; */
+    /* column-gap: 5px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+/* .container>h3{
+    margin-right: 100px;
+} */
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 30%;
+    /* border-radius: 100px; */
+   border-bottom-left-radius: 150px;
+   filter:drop-shadow(-20px -10px  #008AAA ) ;
+
+    /* border: 10px solid;
+    padding: 15px;
+    border-image: url(../Baraa/Desktop/images/computer.jpg) 30 round; */
+}
+.hire{
+    background-color: #008AAA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    margin-top: 25px;
+   padding: 5px;
+}
+
+.see{
+    color: #008AAA;
+    background-color: white;
+    border-color:#008AAA;
+    border-width: 1px;
+    border-radius: 4px;
+    width: 150px;
+    margin-left: 20px;
+    padding:5px
+}
+
+  
+   
